@@ -33,35 +33,62 @@ a{
 
 <br>
 <br><br><br>
-<div id="from">
-<h1 class="country">From</h1>
-<select class="combo">
-<option value ="Philippines">Philippines</option>
-<option value ="Hong Kong">Hong Kong</option>
-<option value ="Japan">Japan</option>
-<option value ="South Korea">South Korea</option>
-</select>
+<center>
+<div>
+	<form>
+		<table>
+			<tr>
+				<td><label>From: </label></td>
+				<td><select class="combo">
+					<option value ="Philippines">Philippines</option>
+					<option value ="Hong Kong">Hong Kong</option>
+					<option value ="Japan">Japan</option>
+					<option value ="South Korea">South Korea
+					</option>
+					</select></td>
+
+					<td><label>Departure:</label></td>
+				<td>
+				<input type="text" class="departure" placeholder="Day" name="txtd" value=""> <input type="text" class="departure" placeholder="Month" name="txtm" value=""> <input type="text" class="departure" placeholder="Year" name="txty" value=""></td>
+
+			</tr>
+
+			<tr>
+				<td><label>To: </label></td>
+				<td><select class="combo">
+					<option value ="Philippines">Philippines</option>
+					<option value ="Hong Kong">Hong Kong</option>
+					<option value ="Japan">Japan</option>
+					<option value ="South Korea">South Korea</option>
+					</select></td>
+
+					<td><label>Return:</label></td>
+				<td>
+				<input type="text" class="departure" placeholder="Day" name="txtd1" value=""> <input type="text" class="departure" placeholder="Month" name="txtm1" value=""> <input type="text" class="departure" placeholder="Year" name="txty1" value=""></td>
+
+			</tr>
+
+		</table>
+<br>
+		<table>
+			
+
+			<tr>
+				<td><label>Adult</label></td>
+				<td><label>Child</label></td>
+				<td><label>Infant</label></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" value=""></div></td>
+				<td><input type="text" value=""></div></td>
+				<td><input type="text" value=""></div></td>
+			</tr>
+		</table>
+	</form>
 </div>
-<div id="to">
-<h1 class="country">To</h1>
-<select class="combo">
 
-<option value ="Philippines">Philippines</option>
-<option value ="Hong Kong">Hong Kong</option>
-<option value ="Japan">Japan</option>
-<option value ="South Korea">South Korea</option>
-</select>
 </div>
-<div id="dept"><h1 class="country">Departure</h1><input type="text" id="departure" value=""></div>
-<div id="ret"><h1 class="country">Return</h1><input type="text" id="return" value=""></div>
-
-
-<div id="age"><h1 class="country">Age</h1></div>
-<div id="adult"><h1 class="country">Adult</h1><input type="text" value=""></div>
-<div id="child"><h1 class="country">Child</h1><input type="text" value=""></div>
-<div id="infant"><h1 class="country">Infant</h1><input type="text" value=""></div>
-
-
 
 <br><br>
 
@@ -70,8 +97,8 @@ a{
 
 </form>
 </div>
+</center>
 
-
-
+</div>
 </body>
 </html>
