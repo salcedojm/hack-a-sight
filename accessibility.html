@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script>
+		var isCtrl=false;
+		var isShift=false;
+		var isAlt=false;
+		$(document).ready(function(){
+			$("#welcome_sound")[0].play()
+			// action on key up
+			$(document).keyup(function(e) {
+				if(e.which == 17) {
+					isCtrl = false;
+				}
+				if(e.which == 16) {
+					isShift = false;
+				}
+				if(e.which == 18) {
+					isAlt = false;
+				}
+			});
+	// action on key down
+		$(document).keydown(function(e) {
+			if(e.which == 17) {
+				isCtrl = true; 
+			}
+			if(e.which == 16) {
+				isShift = true; 
+			}
+			if(e.which == 18) {
+				isAlt = true; 
+			}
+			if(e.which == 72 && isAlt) {
+				location.assign("homepage.php"); 
+			}
+	});
+		});
+	</script>
+</head>
+<body>
+<audio id="welcome_sound" src="audio/welcome.mp3" preload="auto"></audio>
+	<h1>ACCESSIBILITY</h1>
+	<table>
+		<tr>
+			<td>FIRSTNAME</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>LASTNAME</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>EMAIL</td>
+			<td><input type="text"></td>
+		</tr>
+	</table>
+</body>
+</html>
