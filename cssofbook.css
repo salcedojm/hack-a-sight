@@ -1,7 +1,8 @@
+
 #booking{
 	
     margin: auto;
-    width: 70%;
+    width: 66%;
     height: 60%;
     border: 3px white;
     padding: 10px;
@@ -9,84 +10,17 @@
 
 }
 
-.country{
 
 
-		color: black;
-		font-size: 25px;	
-		text-align: center;
-}
-
-#log{
-	float: right;
-}
-
-#from{
-
-    position: absolute;
-    left: 350px;
-    padding: 10px;
-	top: 180px;
-
-}
-#to{
-
-    position: absolute;
-    right: 490px;
-    padding: 10px;
-	top: 180px;
-
-}
-#dept{
-
-    position: absolute;
-    top: 270px;
-	left: 350px;
-    padding: 10px;
-
-}
-#ret{
-
-    position: absolute;
-    top: 270px;
-	right: 465px;
-    padding: 10px;
-
-}
-#age{
-	
-	position: absolute;
-    top: 350px;
-	right: 690px;
-    padding: 10px;
-
-	
-}
-#adult{
-	 position: absolute;
-    top: 380px;
-	left: 360px;
-    padding: 10px;
-}
-#child{
-	 position: absolute;
-    top: 380px;
-	left: 560px;
-    padding: 10px;
-}
-#infant{
-	position: absolute;
-    top: 380px;
-	left: 760px;
-    padding: 10px;
-}
 .combo{
 
 color: black;
-height: 20px;
-width: 150px;
+height: 30px;
+width: 230px;
 font-size: 15px;
-
+font-family: Helvetica;
+font-weight: bold;
+border-radius: 5px;
 }
 #button1{
 	position: absolute;
@@ -142,3 +76,38 @@ a{
     text-decoration: none;
     font-weight: bolder;
 }
+
+label{
+    font-family: Helvetica;
+    font-size: 20px;
+
+
+}
+
+input[type=text] {
+    padding: 10px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 30px;
+}
+input[type=text].departure{
+    padding: 10px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 30px;
+
+}
+#age{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: black;
+}
+
