@@ -55,7 +55,7 @@ label{
 }
 
 #form_style{
-	width: 80%;
+	width: 50%;
 	background-color: #D0D3D4;
 	margin-top: 50px;
 
@@ -75,44 +75,29 @@ label{
 <br>
 <br>
 <br>
-
-
+<br>
 <center>
 <div id="form_style">
+<br>
 <center>
 	<form>
-	<br>
-	<center><span style="font-size: 26px; font-weight: bold; font-family: Helvetica; ">Register to an Account</span></center>
+	<center><span style="font-size: 26px; font-weight: bold; font-family: Helvetica; ">Sign in to an Account</span></center>
 	<hr>
-
+<br>
 	<table>
-	<center><span style="font-size: 26px; font-family: Helvetica;">Login Information</span></center>
+	
 	<tr>
 		<td><label>Email: </label></td>
 		<td><input type="text" name="txtemail" placeholder="Email Address" class="fontstyle"><br></td>
+		</tr>
+		<tr>
 		<td><label>Password:</label></td>
 		<td><input type="password" name="txtpass" placeholder="Password" class="fontstyle"><br></td>
 	</tr>
 	</table>
-	<br>	
-	<table>
-	<center><span style="font-size: 28px; font-family: Helvetica;">Personal Information</span></center><br>
-	<tr>
-		<td><label>Name:</label></td>
-		<td><input type="text" name="txtlname" placeholder="Family Name" size="14" class="fontstyle"> <input size ="11" type="text" name="txtfname" placeholder="Given Name" class="fontstyle"></td>
-	</tr>
-	<tr>
-		<td><label>Date of Birth:</label> </td>
-		<td><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="2" style="width: 130px;"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="4" style="width: 130px;"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10" style="width: 130px;"></td>
-	</tr>
-	<tr>
-		<td><label>Contact Number: </label></td>
-		<td><input type="text" name="txtnum" placeholder="Mobile Number" class="fontstyle"size="34"></td>
-		</tr>
- </table>
+	
  <br>
-<center><input type="checkbox" name="cbx" style="height: 20px; width: 20px;"> <span style="font-size: 20px;">I agree to the </span><a href="" style="color:black; text-decoration:underline; font-size: 20px;">Terms & Conditions</a> </center><br>
-<center><input type="submit" name="btnproceed"></center><br>
+<center><input type="submit" name="btnproceed" value="Sign in"></center><br>
 	</form>
 </center>
 </div>
