@@ -67,11 +67,10 @@ a{
 <br>
 <br>
 <br>
-<<<<<<< HEAD
-=======
+
 <input type="submit" name="btnBAF" value="Book-a-Flight">
 <input type="submit" name="btnreserve" value="Reservation">
->>>>>>> 562aba1551ab3ab93dc5939f7541f878d7446c56
+
 <br>
 <table>
 
