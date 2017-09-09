@@ -30,7 +30,7 @@ a{
 <br>
 <br>
 <br>
-<input type="submit" name="btnBAF" value="Book-a-Flight" width="1000em">
+<input type="submit" name="btnBAF" value="Book-a-Flight">
 <input type="submit" name="btnreserve" value="Reservation">
 <br>
 <input type="submit" name="btnvf" value="View Flight">
