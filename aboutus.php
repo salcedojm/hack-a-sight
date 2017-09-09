@@ -84,15 +84,15 @@ Our guests have also learned to anticipate a uniquely upbeat flying experience w
 		<td colspan="2"><font style="font-size:25px;"><b>Contacts</b></td>
 	</tr>
 	<tr>
-		<td><a href="www.facebook.com/cebupacificairphilippines"><img id="fb" src="fb.png"></a></td>
+		<td><a href="www.facebook.com/cebupacificairphilippines"><img id="fb" alt="facebook logo" src="fb.png"></a></td>
 		<td><a href="www.facebook.com/cebupacificairphilippines"><u>www.facebook.com/cebupacificairphilippines</u></a></td>
 	</tr>
 	<tr>
-		<td><a href="www.twitter.com/cebupacificair"><img id="twit" src="twit.png"></a></td>
+		<td><a href="www.twitter.com/cebupacificair"><img id="twit" alt="twitter logo" src="twit.png"></a></td>
 		<td><a href="www.twitter.com/cebupacificair"><u>www.twitter.com/cebupacificair</u></a></td>
 	</tr>
 	<tr>
-		<td><img id="env" src="mail.png"></td>
+		<td><img id="env" alt="envelope icon" src="mail.png"></td>
 		<td>Mail Us:</td>
 	</tr>
 	<tr>
@@ -102,7 +102,7 @@ Our guests have also learned to anticipate a uniquely upbeat flying experience w
 		<td colspan="2">Domestic Airport Road Pasay City 1301 Philippines</td>
 	</tr>
 	<tr>
-		<td><img id="tel" src="tel.png"></td>
+		<td><img id="tel" alt="telephone icon" src="tel.png"></td>
 		<td>Contact Us:</td>
 	</tr>
 </table>
