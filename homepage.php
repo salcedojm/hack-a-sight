@@ -72,21 +72,21 @@ a{
 <table>
 
 	<tr>
-		<td><div class="button_back" id="book_flight" style="background-color: #5DADE2;">
+		<td><button class="button_back" id="book_flight" style="background-color: #5DADE2;">
 		
 		<span class="styleText">BOOK A FLIGHT</span>
-		</div></td>
-		<td><div class="button_back" id="reserve" style="background-color: #117864">
+		</button></td>
+		<td><button class="button_back" id="reserve" style="background-color: #117864">
 			<span class="styleText">RESERVATION</span>
-		</div></td>
+		</button></td>
 	</tr>
 	<tr>
-		<td><div class="button_back" id="view_flight"  style="background-color: #D4AC0D">
+		<td><button class="button_back" id="view_flight"  style="background-color: #D4AC0D">
 			<span class="styleText">VIEW FLIGHT</span>
-		</div></td>
-		<td><div class="button_back" id="nothing" style="background-color: #2471A3">
+		</button></td>
+		<td><button class="button_back" id="nothing" style="background-color: #2471A3">
 			<span class="styleText">HOTEL</span>
-		</div></td>
+		</button></td>
 	</tr>
 </table>
 
