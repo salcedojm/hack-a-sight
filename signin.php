@@ -1,3 +1,23 @@
+<?php
+	session_start();
+	require "db_connection.php";
+	if(isset($_POST['btnproceed']))
+	{
+		$email=$_POST['txtemail'];
+		$password=md5($_POST['txtpass']);
+		$sql="SELECT * FROM users WHERE email='$email' AND password='$password'";
+		$result=$conn->query($sql);
+		if($result->num_rows>0)
+		{
+			$_SESSION['email']=$email;
+			header('location: homepage.php');
+		}
+		else
+		{
+			echo "<script>alert('INVALID USERNAME OR PASSWORD');</script>";
+		}
+	}
+?>
 <html>
 <head>
 <title> Cebu Pacific </title>
@@ -67,7 +87,7 @@ label{
 	<a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
 <div class="snr">
 <p align ="right">
-<a href="">Sign in</a> | <a href="">Register</a></font>
+<a href="signin.php">Sign in</a> | <a href="register.php">Register</a></font>
 </div>
 <hr>
 </div>
@@ -80,7 +100,7 @@ label{
 <div id="form_style">
 <br>
 <center>
-	<form>
+	<form method="POST">
 	<center><span style="font-size: 26px; font-weight: bold; font-family: Helvetica; ">Sign in to an Account</span></center>
 	<hr>
 <br>

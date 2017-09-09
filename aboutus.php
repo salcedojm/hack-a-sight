@@ -18,7 +18,22 @@ a{
 <a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
 <div class="snr">
 <p align ="right">
-<a href="signin.php">Sign in</a> | <a href="register.php">Register</a></font>
+<?php
+	session_start();
+	if(!isset($_SESSION['email']))
+	{
+?>
+<a href="signin.php" id="sign_in" onfocus="play_guide('sign_in.mp3')">Sign in</a> | <a href="register.php" onfocus="play_guide('register.mp3')">Register</a>
+<?php
+	}
+	else
+	{
+?>
+<a href="logout.php" onfocus="play_guide('register.mp3')">LOGOUT</a>
+<?php
+	}
+?>
+</font>
 </div>
 <hr>
 

@@ -6,11 +6,18 @@
     height: 60%;
     border: 3px white;
     padding: 10px;
-	background-color: #F6FF33;
+	background-color: #F1C40F;
 
 }
-
-
+#tabs{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-color: #F1C40F;
+     border: 3px white;
+    height: 8%;
+    width: 66%;
+    padding: 10px;
+}
 
 .combo{
 
@@ -22,14 +29,6 @@ font-family: Helvetica;
 font-weight: bold;
 border-radius: 5px;
 }
-#button1{
-	position: absolute;
-    top: 500px;
-	left: 635px;
-    padding: 10px;
-}
-
-
 
 /*
 Nav bar
@@ -110,4 +109,26 @@ input[type=text].departure{
     font-size: 20px;
     color: black;
 }
+input[type=submit]{
+    border-radius: 8px;
+    background-color: #4D5656  ;
+    height: 10%;
+    width: 16%;
+    color: white;
+    font-size: 20px;
+}
+a.tab1{
+    text-decoration: underline;
+    color: #2C3E50;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+
+
+a.tab1:hover{
+
+    color: white;
+}
+
 

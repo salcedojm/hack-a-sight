@@ -1,3 +1,23 @@
+<?php
+	session_start();
+	require "db_connection.php";
+	if(isset($_POST['btnproceed']))
+	{
+		$firstname=$_POST['txtfname'];
+		$lastname=$_POST['txtlname'];
+		$contact=$_POST['txtnum'];
+		$email=$_POST['txtemail'];
+		$bday=$_POST['txtday'];
+		$bmonth=$_POST['txtmonth'];
+		$byear=$_POST['txtyear'];
+		$password=md5($_POST['txtpass']);
+		$sql="INSERT INTO users(firstname, lastname, email, contact, birthday,
+		birthmonth,birthyear, password) values('$firstname', '$lastname', '$email',
+		'$contact', $bday, '$bmonth', $byear, '$password')";
+		$conn->query($sql);
+		echo "<script>alert('SUCCESSFULLY REGISTERED');</script>";
+	}
+?>
 <html>
 <head>
 <title> Cebu Pacific </title>
@@ -67,7 +87,7 @@ label{
 	<a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
 <div class="snr">
 <p align ="right">
-<a href="">Sign in</a> | <a href="">Register</a></font>
+<a href="signin.php">Sign in</a> | <a href="register.php">Register</a></font>
 </div>
 <hr>
 </div>
@@ -80,7 +100,7 @@ label{
 <center>
 <div id="form_style">
 <center>
-	<form>
+	<form method="POST">
 	<br>
 	<center><span style="font-size: 26px; font-weight: bold; font-family: Helvetica; ">Register to an Account</span></center>
 	<hr>
@@ -103,7 +123,7 @@ label{
 	</tr>
 	<tr>
 		<td><label>Date of Birth:</label> </td>
-		<td><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="2" style="width: 130px;"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="4" style="width: 130px;"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10" style="width: 130px;"></td>
+		<table></table>d><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="2" style="width: 130px;"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="4" style="width: 130px;"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10" style="width: 130px;"></td>
 	</tr>
 	<tr>
 		<td><label>Contact Number: </label></td>
@@ -111,7 +131,7 @@ label{
 		</tr>
  </table>
  <br>
-<center><input type="checkbox" name="cbx" style="height: 20px; width: 20px;"> <span style="font-size: 20px;">I agree to the </span><a href="" style="color:black; text-decoration:underline; font-size: 20px;">Terms & Conditions</a> </center><br>
+<center><input type="checkbox" name="cbx" style="height: 20px; width: 20px;"> <span style="font-size: 20px;">I agree to the </span><a href="" style="color:black; text-decoration:underline; font-size: 20px;">Terms &amp; Conditions</a> </center><br>
 <center><input type="submit" name="btnproceed"></center><br>
 	</form>
 </center>
