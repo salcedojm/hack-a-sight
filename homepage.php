@@ -79,15 +79,14 @@ a{
 		<td><button class="button_back" id="reserve" style="background-color: #117864">
 			<span class="styleText">RESERVATION</span>
 		</button></td>
-	</tr>
-	<tr>
-		<td><button class="button_back" id="view_flight"  style="background-color: #D4AC0D">
+				<td><button class="button_back" id="view_flight"  style="background-color: #D4AC0D">
 			<span class="styleText">VIEW FLIGHT</span>
 		</button></td>
 		<td><button class="button_back" id="nothing" style="background-color: #2471A3">
 			<span class="styleText">HOTEL</span>
 		</button></td>
 	</tr>
+
 </table>
 
 
