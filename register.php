@@ -103,7 +103,7 @@ label{
 	</tr>
 	<tr>
 		<td><label>Date of Birth:</label> </td>
-		<td><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="2" style="width: 130px;"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="4" style="width: 130px;"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10" style="width: 130px;"></td>
+		<table></table>d><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="2" style="width: 130px;"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="4" style="width: 130px;"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10" style="width: 130px;"></td>
 	</tr>
 	<tr>
 		<td><label>Contact Number: </label></td>
