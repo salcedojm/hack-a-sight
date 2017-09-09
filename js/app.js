@@ -4,16 +4,16 @@ $(document).ready(function(){
 		var isAlt=false;
 		
 		$("#book_flight").click(function(){
-			location.assign("webpagedito.php");
+			location.assign("bookaflight.php");
 		});
 		$("#reserve").click(function(){
-		location.assign("webpagedito.php");
+			location.assign("bookaflight.php");
 		});
 		$("#view_flight").click(function(){
-		location.assign("webpagedito.php");
+			location.assign("bookaflight.php");
 		});
 		$("#nothing").click(function(){
-			location.assign("webpagedito.php");
+			location.assign("aboutus.php");
 		});
 		//KEYBOARD EVENTS GOES HERE...
 
