@@ -22,6 +22,22 @@ a{
 	text-decoration:none;
 	color:blue;
 }
+input[type=text] {
+    padding: 10px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    padding: 10px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 </style>
 </head>
 <body>
@@ -76,11 +92,11 @@ Personal Info
 	</tr>
 	<tr>
 		<td>Date of Birth: </td>
-		<td><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="4"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="6"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10"></td>
+		<td><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="2"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="4"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10"></td>
 	</tr>
 	<tr>
 		<td>Contact Number: </td>
-		<td><input type="text" name="txtnum" placeholder="Mobile Number" class="fontstyle"size="30"></td>
+		<td><input type="text" name="txtnum" placeholder="Mobile Number" class="fontstyle"size="34"></td>
 		</tr>
 </table>
 </div>
