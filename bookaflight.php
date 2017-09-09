@@ -85,15 +85,12 @@ a{
 				<td><input type="text" value=""></div></td>
 			</tr>
 		</table>
+		<br><br>
+		<center><input type="submit" value="Book now"></center>
 	</form>
 </div>
 
 </div>
-
-<br><br>
-
-<div id="button1"><input type="submit" value="book"></div>
-
 
 </form>
 </div>
