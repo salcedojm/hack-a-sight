@@ -22,14 +22,6 @@ font-family: Helvetica;
 font-weight: bold;
 border-radius: 5px;
 }
-#button1{
-	position: absolute;
-    top: 500px;
-	left: 635px;
-    padding: 10px;
-}
-
-
 
 /*
 Nav bar
@@ -109,5 +101,13 @@ input[type=text].departure{
     font-family: Helvetica;
     font-size: 20px;
     color: black;
+}
+input[type=submit]{
+    border-radius: 8px;
+    background-color: #4D5656  ;
+    height: 10%;
+    width: 16%;
+    color: white;
+    font-size: 20px;
 }
 
