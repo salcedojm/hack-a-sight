@@ -37,28 +37,20 @@ a{
 </style>
 
 <script src="js/jquery-3.2.1.js"></script>
+<script src="js/app.js"></script>
 <script>
-	$(document).ready(function(){
-		$("#book_flight").click(function(){
-			location.assign("webpagedito.php");
-		});
-		$("#reserve").click(function(){
-		location.assign("webpagedito.php");
-		});
-		$("#view_flight").click(function(){
-		location.assign("webpagedito.php");
-		});
-		$("#nothing").click(function(){
-		location.assign("webpagedito.php");
-		});
-	});
+$(document).ready(function(){
+	$("#welcome_sound")[0].play()
+});
 </script>
 </head>
 <body>
+<audio id="welcome_sound" src="audio/welcome.mp3" preload="auto"></audio>
+<audio id="sound_guide" src="audio/sign_in.mp3" preload="auto"></audio>
 <img src="logo.jpg" alt="Cebu pacific logo">
 <div class="snr">
 <p align ="right">
-<a href="">Sign in</a> | <a href="">Register</a></font>
+<a href="" id="sign_in" onfocus="play_guide('sign_in.mp3')">Sign in</a> | <a href="" onfocus="play_guide('register.mp3')">Register</a></font>
 </div>
 <hr>
 <br>
@@ -72,19 +64,26 @@ a{
 <table>
 
 	<tr>
-		<td><button class="button_back" id="book_flight" style="background-color: #5DADE2;">
-		
-		<span class="styleText">BOOK A FLIGHT</span>
-		</button></td>
-		<td><button class="button_back" id="reserve" style="background-color: #117864">
-			<span class="styleText">RESERVATION</span>
-		</button></td>
-				<td><button class="button_back" id="view_flight"  style="background-color: #D4AC0D">
-			<span class="styleText">VIEW FLIGHT</span>
-		</button></td>
-		<td><button class="button_back" id="nothing" style="background-color: #2471A3">
-			<span class="styleText">HOTEL</span>
-		</button></td>
+		<td>
+			<button class="button_back" onfocus="play_guide('book_flight.mp3')"id="book_flight" style="background-color: #5DADE2;">
+				<span class="styleText">BOOK A FLIGHT</span>
+			</button>
+		</td>
+		<td>
+			<button class="button_back" onfocus="play_guide('flight_status.mp3')"id="reserve" style="background-color: #117864">
+				<span class="styleText">FLIGHT STATUS</span>
+			</button>
+		</td>
+		<td>
+			<button class="button_back" onfocus="play_guide('view_flight.mp3')" id="view_flight"  style="background-color: #D4AC0D">
+				<span class="styleText">VIEW FLIGHT</span>
+			</button>
+		</td>
+		<td>
+			<button class="button_back" id="nothing" style="background-color: #2471A3">
+				<span class="styleText">HOTEL</span>
+			</button>
+		</td>
 	</tr>
 
 </table>
