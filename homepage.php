@@ -68,9 +68,6 @@ a{
 <br>
 <br>
 
-<input type="submit" name="btnBAF" value="Book-a-Flight">
-<input type="submit" name="btnreserve" value="Reservation">
-
 <br>
 <table>
 
