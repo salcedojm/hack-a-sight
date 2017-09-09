@@ -81,7 +81,7 @@ $(document).ready(function(){
 		</td>
 		<td>
 			<button class="button_back" id="nothing" style="background-color: #2471A3">
-				<span class="styleText">HOTEL</span>
+				<span class="styleText">ABOUT US</span>
 			</button>
 		</td>
 	</tr>
