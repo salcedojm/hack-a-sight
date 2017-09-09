@@ -50,7 +50,22 @@ $(document).ready(function(){
 <img src="logo.jpg" alt="Cebu pacific logo">
 <div class="snr">
 <p align ="right">
-<a href="" id="sign_in" onfocus="play_guide('sign_in.mp3')">Sign in</a> | <a href="" onfocus="play_guide('register.mp3')">Register</a></font>
+<?php
+	session_start();
+	if(!isset($_SESSION['email']))
+	{
+?>
+<a href="signin.php" id="sign_in" onfocus="play_guide('sign_in.mp3')">Sign in</a> | <a href="register.php" onfocus="play_guide('register.mp3')">Register</a>
+<?php
+	}
+	else
+	{
+?>
+<a href="logout.php" onfocus="play_guide('register.mp3')">LOGOUT</a>
+<?php
+	}
+?>
+</font>
 </div>
 <hr>
 <br>
@@ -65,12 +80,12 @@ $(document).ready(function(){
 
 	<tr>
 		<td>
-			<button class="button_back" onfocus="play_guide('book_flight.mp3')"id="book_flight" style="background-color: #5DADE2;">
+			<button class="button_back" onfocus="play_guide('book_flight.mp3')" id="book_flight" style="background-color: #5DADE2;">
 				<span class="styleText">BOOK A FLIGHT</span>
 			</button>
 		</td>
 		<td>
-			<button class="button_back" onfocus="play_guide('flight_status.mp3')"id="reserve" style="background-color: #117864">
+			<button class="button_back" onfocus="play_guide('flight_status.mp3')" id="reserve" style="background-color: #117864">
 				<span class="styleText">FLIGHT STATUS</span>
 			</button>
 		</td>
