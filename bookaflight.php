@@ -15,7 +15,7 @@ a{
 </style>
 </head>
 <body>
-<img src="logo.jpg" alt="Cebu pacific logo">
+<a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
 <div class="snr">
 <p align ="right">
 <?php

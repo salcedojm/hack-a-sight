@@ -1,6 +1,7 @@
 <html>
 <head>
 <title> Cebu Pacific </title>
+<link rel="stylesheet" type="text/css" href="cssofbook.css">
 <style>
 div.snr{
 	font-family:Helvetica;
@@ -23,41 +24,56 @@ a{
 <center><b><font style="font-size:40px; font-family:Helvetica;">Flight Status</font></b></center>
 <br>
 <br>
-<table>
-<tr>
-	<td>From:</td> 
-	<td><select>
-		<option value ="Philippines">Philippines</option>
-		<option value ="Hong Kong">Hong Kong</option>
-		<option value ="Japan">Japan</option>
-		<option value ="South Korea">South Korea</option>
-	</select>
-	</td>
-</tr>
-<tr>
-	<td>To:</td> 
-	<td><select>
-		<option value ="Philippines">Philippines</option>
-		<option value ="Hong Kong">Hong Kong</option>
-		<option value ="Japan">Japan</option>
-		<option value ="South Korea">South Korea</option>
-	</select>
-	</td>
-</tr>
-</table>
+<font face="Helvetica">
+<center>
 <table>
 	<tr>
-		<td colspan="3"><center>Flight Date</center></td> 
-		<td><center>Flight found</center></td>
+		<td>
+		<center>
+		<table>
+			<tr>
+				<td>From:</td> 
+				<td><select class="combo">
+				<option value ="Philippines">Philippines</option>
+				<option value ="Hong Kong">Hong Kong</option>
+				<option value ="Japan">Japan</option>
+				<option value ="South Korea">South Korea</option>
+				</select>
+				</td>
+			</tr>
+		
+			<tr>
+				<td>To:</td> 
+				<td><select class="combo">
+				<option value ="Philippines">Philippines</option>
+				<option value ="Hong Kong">Hong Kong</option>
+				<option value ="Japan">Japan</option>
+				<option value ="South Korea">South Korea</option>
+				</select>
+				</td>
+			</tr>
+		</table>
+		</center>
+		</td>
 	</tr>
 	<tr>
-		<td><input type="text" name="txtdd" placeholder="Day"></td>
-		<td><input type="text" name="txtmm" placeholder="Month"></td>
-		<td><input type="text" name="txtyy" placeholder="Year"></td>
-		<td><input type="text" name="txtfno" placeholder="Flight No."></td>
-	</tr>	
+		<td>
+		<table>
+			<tr>
+				<td colspan="3"><center>Flight Date</center></td> 
+				<td><center>Flight found</center></td>
+			</tr>
+			<tr>
+				<td><input type="text" class="departure" name="txtdd" placeholder="Day"></td>
+				<td><input type="text" class="departure" name="txtmm" placeholder="Month"></td>
+				<td><input type="text" class="departure" name="txtyy" placeholder="Year"></td>
+				<td><input type="text" name="txtfno" placeholder="Flight No."></td>
+			</tr>	
+		</table>
+		</td>
+	</tr>
 </table>
-<br>
-<input type="submit" name="btnsearch" value="Check Status">
+</center>
+<center><input type="submit" name="btnsearch" value="Check Status">
 </body>
 </html>
