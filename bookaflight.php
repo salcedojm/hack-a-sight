@@ -36,7 +36,6 @@ a{
 </font>
 </div>
 <hr>
-
 <div id="nav">
 <ul>
   <li><a class="active" href="#home">Book A Flight</a></li>

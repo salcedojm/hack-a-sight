@@ -1,6 +1,6 @@
 <html>
 <head>
-<title> Cebu Pacific </title>
+<title>About Us</title>
 <link rel="stylesheet" type="text/css" href="cssofbook.css">
 <style>
 div.snr{
@@ -12,32 +12,7 @@ a{
 	text-decoration:none;
 	color:blue;
 }
-</style>
-</head>
-<body>
-<a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
-<div class="snr">
-<p align ="right">
-<?php
-	session_start();
-	if(!isset($_SESSION['email']))
-	{
-?>
-<a href="signin.php" id="sign_in" onfocus="play_guide('sign_in.mp3')">Sign in</a> | <a href="register.php" onfocus="play_guide('register.mp3')">Register</a>
-<?php
-	}
-	else
-	{
-?>
-<a href="logout.php" onfocus="play_guide('register.mp3')">LOGOUT</a>
-<?php
-	}
-?>
-</font>
-</div>
-<hr>
 
-<style>
 #desc{
 	postition: absolute;
 	font-size:20px;
@@ -76,8 +51,87 @@ a{
 	
 	
 }
+
+ul {
+    
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+
+
+
+}
+
+li a:hover {
+    background-color: #ACAE9E;
+}
+
+#log a:hover{
+	color: #ACAE9E;
+}
+
+a{
+	text-decoration: none;
+    color: #48D0EC;
+    text-decoration: none;
+    font-weight: bolder;
+}
 </style>
-<div id="desc"><br><b>About Us:</b><br>	
+</head>
+<body>
+<a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
+<div class="snr">
+<p align ="right">
+<?php
+	session_start();
+	if(!isset($_SESSION['email']))
+	{
+?>
+<a href="signin.php" id="sign_in" onfocus="play_guide('sign_in.mp3')">Sign in</a> | <a href="register.php" onfocus="play_guide('register.mp3')">Register</a>
+<?php
+	}
+	else
+	{
+?>
+<a href="logout.php" onfocus="play_guide('register.mp3')">LOGOUT</a>
+<?php
+	}
+?>
+</font>
+</div>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="nav">
+<ul>
+  <li><a class="active" href="#home">Book A Flight</a></li>
+  <li><a href="#news">Flight Status</a></li>
+  <li><a href="#contact">Flight Record</a></li>
+  <li><a href="#contact">About Us</a></li>
+  </ul>
+</div>
+<div id="desc"><b>About Us:</b><br>	
 
 Cebu Pacific Air (PSE: CEB) entered the aviation industry on March 1996 and pioneered the “low fare, great value” strategy. We have since then flown over 150 million passengers and counting.
 
@@ -93,7 +147,9 @@ CEB is also the preferred and dominant air ​cargo carrier in the Philippines. 
  
 Our guests have also learned to anticipate a uniquely upbeat flying experience with CEB, as we are the only carrier offering fun in the skies with our “Fun Games” on board.</div>
 
+
 <div id="contact">
+
 <table>
 	<tr>
 		<td colspan="2"><font style="font-size:25px;"><b>Contacts</b></td>

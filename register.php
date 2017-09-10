@@ -20,7 +20,7 @@
 ?>
 <html>
 <head>
-<title> Cebu Pacific </title>
+<title> Registration </title>
 	
 <style>
 div.snr{
@@ -80,6 +80,48 @@ label{
 	margin-top: 50px;
 
 }
+ul {
+    
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+
+
+
+}
+
+li a:hover {
+    background-color: #ACAE9E;
+}
+
+#log a:hover{
+	color: #ACAE9E;
+}
+
+a{
+	text-decoration: none;
+    color: #48D0EC;
+    text-decoration: none;
+    font-weight: bolder;
+}
 </style>
 </head>
 <body>
@@ -95,8 +137,15 @@ label{
 <br>
 <br>
 <br>
-
-
+<br>
+<div id="nav">
+<ul>
+  <li><a class="active" href="#home">Book A Flight</a></li>
+  <li><a href="#news">Flight Status</a></li>
+  <li><a href="#contact">Flight Record</a></li>
+  <li><a href="#contact">About Us</a></li>
+  </ul>
+</div>
 <center>
 <div id="form_style">
 <center>
