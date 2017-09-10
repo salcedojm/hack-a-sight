@@ -117,8 +117,8 @@ input[type=submit]{
     color: white;
     font-size: 20px;
 }
-a.tab1{
-    text-decoration: underline;
+.tab1{
+    background-color: #F39C12;
     color: #2C3E50;
     font-family: Helvetica;
     font-size: 20px;
