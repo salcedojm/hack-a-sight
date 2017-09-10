@@ -38,12 +38,12 @@ a{
 </div>
 </div>
 <hr>
-
 <div id="nav">
 <ul>
   <li><a class="active" href="#home">Book A Flight</a></li>
-  <li><a href="#news">Reservation</a></li>
-  <li><a href="#contact">View Flight</a></li>
+  <li><a href="#news">Flight Status</a></li>
+  <li><a href="#contact">Flight Record</a></li>
+  <li><a href="#contact">About Us</a></li>
   </ul>
 </div>
 
@@ -52,11 +52,11 @@ a{
 	<span style="font-family: helvetica; font-size: 26px; color: #1B2631">Where would you like to go?</span>
 	<hr>
 		<tr>
-			<td><a href="#" class="tab1">Round-trip</a></td>
+			<td><button class="tab1">Round-trip</button></td>
 			<td> </td>
-			<td><a href="#" class="tab1">One-way</a></td>
+			<td><button class="tab1">One-way</button></td>
 			<td> </td>
-			<td><a href="#" class="tab1">Multi-city</a></td>
+			<td><button class="tab1">Multi-city</button></td>
 		</tr>
 
 	</table>

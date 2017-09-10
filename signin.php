@@ -20,7 +20,7 @@
 ?>
 <html>
 <head>
-<title> Cebu Pacific </title>
+<title> Sign in </title>
 	
 <style>
 div.snr{
@@ -80,19 +80,76 @@ label{
 	margin-top: 50px;
 
 }
+ul {
+    
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+
+
+
+}
+
+li a:hover {
+    background-color: #ACAE9E;
+}
+
+#log a:hover{
+	color: #ACAE9E;
+}
+
+a{
+	text-decoration: none;
+    color: #48D0EC;
+    text-decoration: none;
+    font-weight: bolder;
+}
 </style>
 </head>
 <body>
 <div style="width:100%; background-color:white; margin-top:-8px;">
 	<a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
+	
 <div class="snr">
 <p align ="right">
 <a href="signin.php">Sign in</a> | <a href="register.php">Register</a></font>
+
 </div>
 <hr>
 </div>
 <br>
 <br>
+<<<<<<< HEAD
+=======
+<br>
+<br>
+<div id="nav">
+<ul>
+  <li><a class="active" href="#home">Book A Flight</a></li>
+  <li><a href="#news">Flight Status</a></li>
+  <li><a href="#contact">Flight Record</a></li>
+  <li><a href="#contact">About Us</a></li>
+  </ul>
+</div>
+>>>>>>> 4bb139bf58bf0d66be3ac99971907cb7c4e0b5d3
 <center>
 <div id="form_style">
 <br>
