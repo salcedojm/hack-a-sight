@@ -53,7 +53,7 @@ a{
 
 <center><div id="tabs">
 	<table>
-	<span style="font-family: helvetica; font-size: 26px; color: #1B2631">Where would you like to go?</span>
+	<span style="font-family: helvetica; font-size: 26px; color: #1B2631; font-weight:bold;">Where would you like to go?</span>
 	<hr>
 		<tr>
 			<td><button class="tab1">Round-trip</button></td>
@@ -306,7 +306,7 @@ a{
 </div>
 <hr>
 <footer>
-<img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard"><img src="mastercard-secure.jpg" alt="credits visa"><img src="amex.jpg" alt="credits amex">
+<img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard">
 </footer>
 </body>
 </html>

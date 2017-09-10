@@ -105,6 +105,7 @@ li a {
     padding: 25px 20px;
     text-decoration: none;
     font-weight: bolder;
+    font-family: Helvetica;
 
 
 

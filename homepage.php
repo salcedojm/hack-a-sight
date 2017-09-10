@@ -74,7 +74,7 @@ $(document).ready(function(){
 <hr>
 <br>
 <center>
-<font style="font-size:50px; font-weight: bold;">Welcome, What would you like to do?</font>
+<font style="font-size:50px; font-weight: bold;">Welcome, what would you like to do?</font>
 <br>
 <br>
 <br>
