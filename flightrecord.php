@@ -33,6 +33,65 @@ a{
 	font-weight: bold;
 
 }
+ul {
+    
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Helvetica;
+
+
+
+}
+
+li a:hover {
+    background-color: #ACAE9E;
+}
+
+#log a:hover{
+	color: #ACAE9E;
+}
+
+a{
+	text-decoration: none;
+    color: #48D0EC;
+    text-decoration: none;
+    font-weight: bolder;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #F1C40F;
+    color: white;
+}
 
 </style>
 
@@ -69,18 +128,28 @@ $(document).ready(function(){
 </font>
 </div>
 </div>
+
 <hr>
+<div id="nav">
+<ul>
+  <li><a class="active" href="#home">Book A Flight</a></li>
+  <li><a href="#news">Flight Status</a></li>
+  <li><a href="#contact">Flight Record</a></li>
+  <li><a href="#contact">About Us</a></li>
+  </ul>
+</div>
+
 <center>
 Flight Record History
 <table border="1">
 <tr align="center">
-	<td>FROM</td>
-	<td>TO</td>
-	<td>DEPARTURE</td>
-	<td>RETURN</td>
-	<td>ADULT</td>
-	<td>CHILD</td>
-	<td>INFANT</td>
+	<th>FROM</th>
+	<th>TO</th>
+	<th>DEPARTURE</th>
+	<th>RETURN</th>
+	<th>ADULT</th>
+	<th>CHILD</th>
+	<th>INFANT</th>
 </tr>
 <tr align="center">
 	<td>Philippines</td>
@@ -146,14 +215,7 @@ Flight Record History
 	<td>1</td>
 </tr>
 </table>
-<footer style="margin-top: 70px;">
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<footer style="margin-top: 100px;">
 <hr>
 <img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard">
 </footer>

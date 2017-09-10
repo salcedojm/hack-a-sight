@@ -21,7 +21,8 @@
 <html>
 <head>
 <title> Sign in </title>
-	
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/app.js"></script>
 <style>
 div.snr{
 	font-family:Helvetica;
@@ -105,6 +106,7 @@ li a {
     padding: 25px 20px;
     text-decoration: none;
     font-weight: bolder;
+    font-family: Helvetica;
 
 
 
@@ -127,12 +129,13 @@ a{
 </style>
 </head>
 <body>
+<audio id="sound_guide" src="audio/sign_in.mp3" preload="auto"></audio>
 <div style="width:100%; background-color:white; margin-top:-8px;">
 	<a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
 	
 <div class="snr">
 <p align ="right">
-<a href="signin.php">Sign in</a> | <a href="register.php">Register</a></font>
+<a href="signin.php" onfocus="play_guide('sign_in.mp3')">Sign in</a> | <a href="register.php"  onfocus="play_guide('register.mp3')">Register</a></font>
 
 </div>
 <hr>
@@ -140,10 +143,10 @@ a{
 
 <div id="nav">
 <ul>
-  <li><a class="active" href="#home">Book A Flight</a></li>
-  <li><a href="#news">Flight Status</a></li>
-  <li><a href="#contact">Flight Record</a></li>
-  <li><a href="#contact">About Us</a></li>
+  <li><a class="active" href="bookaflight.php" onfocus="play_guide('book_flight.mp3')">Book A Flight</a></li>
+  <li><a href="flightstatus.php" onfocus="play_guide('flight_status.mp3')">Flight Status</a></li>
+  <li><a href="flightrecord.php" onfocus="play_guide('flig_record.mp3')">Flight Record</a></li>
+  <li><a href="aboutus.php" onfocus="play_guide('about.mp3')">About Us</a></li>
   </ul>
 </div>
 
@@ -159,16 +162,16 @@ a{
 	
 	<tr>
 		<td><label>Email: </label></td>
-		<td><input type="text" name="txtemail" placeholder="Email Address" class="fontstyle"><br></td>
+		<td><input type="text" name="txtemail"  onfocus="play_guide('eEmail.mp3')" placeholder="Email Address" class="fontstyle"><br></td>
 		</tr>
 		<tr>
 		<td><label>Password:</label></td>
-		<td><input type="password" name="txtpass" placeholder="Password" class="fontstyle"><br></td>
+		<td><input type="password" name="txtpass" onfocus="play_guide('ePass.mp3')" placeholder="Password" class="fontstyle"><br></td>
 	</tr>
 	</table>
 	
  <br>
-<center><input type="submit" name="btnproceed" value="Sign in"></center><br>
+<center><input type="submit" name="btnproceed"  onfocus="play_guide('sign_in.mp3')" value="Sign in"></center><br>
 	</form>
 </center>
 </div>

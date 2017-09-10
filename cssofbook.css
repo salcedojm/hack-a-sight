@@ -124,7 +124,7 @@ input[type=submit]{
     font-size: 20px;
     height: 40px;
     width: 200px;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 
@@ -133,5 +133,6 @@ a.tab1:hover{
 
     color: white;
 }
+
 
 
