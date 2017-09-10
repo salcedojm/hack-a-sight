@@ -12,7 +12,6 @@ a{
 	text-decoration:none;
 	color:blue;
 }
-<<<<<<< HEAD
 </style>
 </head>
 <body>
@@ -39,9 +38,7 @@ a{
 </div>
 </div>
 <hr>
-=======
->>>>>>> 4bb139bf58bf0d66be3ac99971907cb7c4e0b5d3
-
+<style>
 #desc{
 	postition: absolute;
 	font-size:20px;
@@ -124,37 +121,6 @@ a{
     font-weight: bolder;
 }
 </style>
-<<<<<<< HEAD
-<div id="desc"><br><b>About Us:</b><br><br>	
-=======
-</head>
-<body>
-<a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
-<div class="snr">
-<p align ="right">
-<?php
-	session_start();
-	if(!isset($_SESSION['email']))
-	{
-?>
-<a href="signin.php" id="sign_in" onfocus="play_guide('sign_in.mp3')">Sign in</a> | <a href="register.php" onfocus="play_guide('register.mp3')">Register</a>
-<?php
-	}
-	else
-	{
-?>
-<a href="logout.php" onfocus="play_guide('register.mp3')">LOGOUT</a>
-<?php
-	}
-?>
-</font>
-</div>
-<hr>
-<br>
-<br>
-<br>
-<br>
-<br>
 <div id="nav">
 <ul>
   <li><a class="active" href="#home">Book A Flight</a></li>
@@ -163,8 +129,7 @@ a{
   <li><a href="#contact">About Us</a></li>
   </ul>
 </div>
-<div id="desc"><b>About Us:</b><br>	
->>>>>>> 4bb139bf58bf0d66be3ac99971907cb7c4e0b5d3
+<div id="desc"><b>About Us:</b><br><br>	
 
 Cebu Pacific Air (PSE: CEB) entered the aviation industry on March 1996 and pioneered the “low fare, great value” strategy. We have since then flown over 150 million passengers and counting.
 
