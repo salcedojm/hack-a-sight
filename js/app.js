@@ -25,10 +25,10 @@ $(document).ready(function(){
 			location.assign("bookaflight.php");
 		});
 		$("#reserve").click(function(){
-			location.assign("bookaflight.php");
+			location.assign("flightstatus.php");
 		});
 		$("#view_flight").click(function(){
-			location.assign("bookaflight.php");
+			location.assign("flightrecord.php");
 		});
 		$("#nothing").click(function(){
 			location.assign("aboutus.php");
