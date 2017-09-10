@@ -135,15 +135,16 @@ $(document).ready(function(){
 <hr>
 <div id="nav">
 <ul>
-  <li><a class="active" href="#home">Book A Flight</a></li>
-  <li><a href="#news">Flight Status</a></li>
-  <li><a href="#contact">Flight Record</a></li>
-  <li><a href="#contact">About Us</a></li>
+   <li><a class="active" href="bookaflight.php" onfocus="play_guide('book_flight.mp3')">Book A Flight</a></li>
+  <li><a href="flightstatus.php" onfocus="play_guide('flight_status.mp3')">Flight Status</a></li>
+  <li><a href="flightrecord.php" onfocus="play_guide('flig_record.mp3')">Flight Record</a></li>
+  <li><a href="aboutus.php" onfocus="play_guide('about.mp3')">About Us</a></li>
+   <li><a href="accessibility.php" onfocus="play_guide('accessbility.mp3')">Accessibility</a></li>
   </ul>
 </div>
-<table>
+<table style="margin-top: 40px;">
 	<tr>
-		<td colspan="2">ACCESSKEY FUNCTONS</td>
+		<td colspan="2" style="font-weight: bold; background-color: #F1C40F; ">ACCESSKEY FUNCTONS</td>
 	</tr>
 	<tr>
 		<td>ALT + H</td>
@@ -166,7 +167,7 @@ $(document).ready(function(){
 		<td>ABOUT US</td>
 	</tr>
 </table>
-<footer style="margin-top: 100px;">
+<footer style="margin-top: 130px;">
 <hr>
 <img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard">
 </footer>

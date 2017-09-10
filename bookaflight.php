@@ -47,6 +47,7 @@ a{
   <li><a href="flightstatus.php" onfocus="play_guide('flight_status.mp3')">Flight Status</a></li>
   <li><a href="flightrecord.php" onfocus="play_guide('flig_record.mp3')">Flight Record</a></li>
   <li><a href="aboutus.php"onfocus="play_guide('about.mp3')">About Us</a></li>
+   <li><a href="accessibility.php"onfocus="play_guide('accessbility.mp3')">Accessibility</a></li>
   </ul>
 </div>
 

@@ -134,10 +134,11 @@ $(document).ready(function(){
 <hr>
 <div id="nav">
 <ul>
-  <li><a class="active" href="bookaflight.php">Book A Flight</a></li>
-  <li><a href="flightstatus.php">Flight Status</a></li>
-  <li><a href="flightrecord.php">Flight Record</a></li>
-  <li><a href="aboutus.php">About Us</a></li>
+   <li><a class="active" href="bookaflight.php" onfocus="play_guide('book_flight.mp3')">Book A Flight</a></li>
+  <li><a href="flightstatus.php" onfocus="play_guide('flight_status.mp3')">Flight Status</a></li>
+  <li><a href="flightrecord.php" onfocus="play_guide('flig_record.mp3')">Flight Record</a></li>
+  <li><a href="aboutus.php"onfocus="play_guide('about.mp3')">About Us</a></li>
+   <li><a href="accessibility.php"onfocus="play_guide('accessbility.mp3')">Accessibility</a></li>
   </ul>
 </div>
 <br>

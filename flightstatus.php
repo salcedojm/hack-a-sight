@@ -30,6 +30,14 @@ a{
     padding: 10px;
 	background-color: #F1C40F;
 }
+input[type=submit]{
+	border-radius: 8px;
+	background-color: #4D5656;
+	height: 14%;
+	width: 20%;
+	color: white;
+	font-size: 20px;
+}
 </style>
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/app.js"></script>
@@ -61,10 +69,11 @@ a{
 <hr>
 <div id="nav">
 <ul>
-  <li><a class="active" href="bookaflight.php"onfocus="play_guide('book_flight.mp3')">Book A Flight</a></li>
-  <li><a href="flightstatus.php"onfocus="play_guide('flight_status.mp3')">Flight Status</a></li>
+  <li><a class="active" href="bookaflight.php" onfocus="play_guide('book_flight.mp3')">Book A Flight</a></li>
+  <li><a href="flightstatus.php" onfocus="play_guide('flight_status.mp3')">Flight Status</a></li>
   <li><a href="flightrecord.php" onfocus="play_guide('flig_record.mp3')">Flight Record</a></li>
-  <li><a href="aboutus.php" onfocus="play_guide('about.mp3')">About Us</a></li>
+  <li><a href="aboutus.php"onfocus="play_guide('about.mp3')">About Us</a></li>
+   <li><a href="accessibility.php"onfocus="play_guide('accessbility.mp3')">Accessibility</a></li>
   </ul>
 </div>
 <br>
