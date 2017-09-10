@@ -257,22 +257,40 @@ a{
 					<option value ="South Korea">South Korea
 					</option>
 					</select></td>
-					<td><label>Departure:</label></td>
-				<td>
-				<input type="text" class="departure" placeholder="Day" name="txtd" value=""> <input type="text" class="departure" placeholder="Month" name="txtm" value=""> <input type="text" class="departure" placeholder="Year" name="txty" value=""></td>
-			</tr>
-
-			<tr>
-				<td><label>To: </label></td>
+					<td><label>To: </label></td>
 				<td><select class="combo">
 					<option value ="Philippines">Philippines</option>
 					<option value ="Hong Kong">Hong Kong</option>
 					<option value ="Japan">Japan</option>
 					<option value ="South Korea">South Korea</option>
 					</select></td>
-					<td><label>Return:</label></td>
+
+			</tr>
+					<td><label>From: </label></td>	
+				<td><select class="combo">
+					<option value ="Philippines">Philippines</option>
+					<option value ="Hong Kong">Hong Kong</option>
+					<option value ="Japan">Japan</option>
+					<option value ="South Korea">South Korea
+					</option>
+					</select></td>
+					<td><label>To: </label></td>
+				<td><select class="combo">
+					<option value ="Philippines">Philippines</option>
+					<option value ="Hong Kong">Hong Kong</option>
+					<option value ="Japan">Japan</option>
+					<option value ="South Korea">South Korea</option>
+					</select></td>
+			<tr>
+				<td><label>Departure:</label></td>
+				<td>
+				<input type="text" class="departure" placeholder="Day" name="txtd" value=""> <input type="text" class="departure" placeholder="Month" name="txtm" value=""> <input type="text" class="departure" placeholder="Year" name="txty" value=""></td>
+
+
+	<td><label>Return:</label></td>
 				<td>
 				<input type="text" class="departure" placeholder="Day" name="txtd1" value=""> <input type="text" class="departure" placeholder="Month" name="txtm1" value=""> <input type="text" class="departure" placeholder="Year" name="txty1" value=""></td>
+					
 			</tr>
 		</table>
 <br>
