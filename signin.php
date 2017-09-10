@@ -135,11 +135,7 @@ a{
 </div>
 <hr>
 </div>
-<br>
-<br>
 
-<br>
-<br>
 <div id="nav">
 <ul>
   <li><a class="active" href="#home">Book A Flight</a></li>
