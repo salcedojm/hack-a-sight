@@ -52,15 +52,20 @@ $(document).ready(function(){
 			}
 			//ALT B FOR BOOKNOW
 			if(e.which == 66 && isAlt) {
-				location.assign("booknow.php"); 
+				location.assign("bookaflight.php"); 
 			}
 			//ALT F FOR FLIGHT STATUS
-			if(e.which == 70 && isAlt) {
-				location.assign("flight-status.php"); 
+			if(e.which == 83 && isAlt) {
+				location.assign("flightstatus.php"); 
 			}
-			//ALT V FOR FLIGHT STATUS
-			if(e.which == 86 && isAlt) {
-				location.assign("view-flight.php"); 
+			//ALT A FOR FLIGHT STATUS
+			if(e.which == 65 && isAlt) {
+				location.assign("aboutus.php"); 
+			}
+
+			//ALT R FOR FLIGHT STATUS
+			if(e.which == 82 && isAlt) {
+				location.assign("flightrecord.php"); 
 			}
 		});
 		//FOCUS EVENTS, SOUND GUIDES
