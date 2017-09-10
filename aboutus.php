@@ -13,9 +13,14 @@ a{
 	color:blue;
 }
 </style>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/app.js"></script>
 </head>
 <body>
 <div style="width:100%; background-color:white; margin-top:-8px;">
+<audio id="sound_guide" src="audio/sign_in.mp3" preload="auto"></audio>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/app.js"></script>
 <a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
 <div class="snr">
 <p align ="right">
@@ -124,10 +129,10 @@ a{
 </style>
 <div id="nav">
 <ul>
-  <li><a class="active" href="#home">Book A Flight</a></li>
-  <li><a href="#news">Flight Status</a></li>
-  <li><a href="#contact">Flight Record</a></li>
-  <li><a href="#contact">About Us</a></li>
+  <li><a class="active" href="bookaflight.php" onfocus="play_guide('book_flight.mp3')">Book A Flight</a></li>
+  <li><a href="flightstatus.php"onfocus="play_guide('flight_status.mp3')">Flight Status</a></li>
+  <li><a href="flightrecord.php"onfocus="play_guide('flig_record.mp3')">Flight Record</a></li>
+  <li><a href="aboutus.php"onfocus="play_guide('about.mp3')">About Us</a></li>
   </ul>
 </div>
 <div id="desc"><b>About Us:</b><br><br>	

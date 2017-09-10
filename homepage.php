@@ -47,7 +47,7 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-<audio id="welcome_sound" src="audio/welcome.mp3" preload="auto"></audio>
+<audio id="welcome_sound" src="audio/welcome1.mp3" preload="auto"></audio>
 <audio id="sound_guide" src="audio/sign_in.mp3" preload="auto"></audio>
 <div style="width:100%; background-color:white; margin-top:-8px;">
 <img src="logo.jpg" alt="Cebu pacific logo">

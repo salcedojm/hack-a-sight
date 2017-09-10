@@ -107,7 +107,6 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-<audio id="welcome_sound" src="audio/welcome.mp3" preload="auto"></audio>
 <audio id="sound_guide" src="audio/sign_in.mp3" preload="auto"></audio>
 <div style="width:100%; background-color:white; margin-top:-8px;">
 <a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
@@ -135,10 +134,10 @@ $(document).ready(function(){
 <hr>
 <div id="nav">
 <ul>
-  <li><a class="active" href="#home">Book A Flight</a></li>
-  <li><a href="#news">Flight Status</a></li>
-  <li><a href="#contact">Flight Record</a></li>
-  <li><a href="#contact">About Us</a></li>
+  <li><a class="active" href="bookaflight.php">Book A Flight</a></li>
+  <li><a href="flightstatus.php">Flight Status</a></li>
+  <li><a href="flightrecord.php">Flight Record</a></li>
+  <li><a href="aboutus.php">About Us</a></li>
   </ul>
 </div>
 <br>
