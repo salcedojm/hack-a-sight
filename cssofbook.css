@@ -56,7 +56,7 @@ li a {
     padding: 25px 20px;
     text-decoration: none;
     font-weight: bolder;
-
+    font-family: Helvetica;
 
 
 }
@@ -118,8 +118,8 @@ input[type=submit]{
     font-size: 20px;
 }
 .tab1{
-    background-color: #F39C12;
-    color: #2C3E50;
+    background-color: #4D5656;
+    color: white;
     font-family: Helvetica;
     font-size: 20px;
 }
