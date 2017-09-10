@@ -2,7 +2,25 @@ $(document).ready(function(){
 		var isCtrl=false;
 		var isShift=false;
 		var isAlt=false;
-		
+		$(".tab1").click(function(){
+			$("#one_way,#multi_city").fadeOut(500, function(){
+				$("#round_trip").fadeIn();
+			});
+		});
+
+		$(".tab2").click(function(){
+			$("#round_trip,#multi_city").fadeOut(500, function(){
+				$("#one_way").fadeIn();
+			});
+		});
+
+
+		$(".tab3").click(function(){
+			$("#one_way,#round_trip").fadeOut(500, function(){
+				$("#multi_city").fadeIn();
+			});
+		});
+
 		$("#book_flight").click(function(){
 			location.assign("bookaflight.php");
 		});
