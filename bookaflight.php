@@ -58,11 +58,11 @@ a{
 	<span style="font-family: helvetica; font-size: 26px; color: #1B2631; font-weight:bold;">Where would you like to go?</span>
 	<hr>
 		<tr>
-			<td><button class="tab1">Round-trip</button></td>
+			<td><button class="tab1" onfocus="play_guide('rt.mp3')">Round-trip</button></td>
 			<td> </td>
-			<td><button class="tab2">One-way</button></td>
+			<td><button class="tab2"onfocus="play_guide('OW.mp3')">One-way</button></td>
 			<td> </td>
-			<td><button class="tab3">Multi-city</button></td>
+			<td><button class="tab3" onfocus="play_guide('MC.mp3')">Multi-city</button></td>
 		</tr>
 
 	</table>
@@ -90,7 +90,9 @@ a{
 					</select></td>
 					<td><label>Departure:</label></td>
 				<td>
-				<input type="text" class="departure" placeholder="Day" name="txtd" value=""> <input type="text" class="departure" placeholder="Month" name="txtm" value=""> <input type="text" class="departure" placeholder="Year" name="txty" value=""></td>
+				<input type="text" class="departure" placeholder="Day" name="txtd" value=""  onfocus="play_guide('DDD.mp3')">
+				<input type="text" class="departure" placeholder="Month" name="txtm" value="" onfocus="play_guide('DMD.mp3')"> 
+				<input type="text" class="departure" placeholder="Year" name="txty" value="" onfocus="play_guide('DYD.mp3')"></td>
 			</tr>
 
 			<tr>
@@ -103,7 +105,9 @@ a{
 					</select></td>
 					<td><label>Return:</label></td>
 				<td>
-				<input type="text" class="departure" placeholder="Day" name="txtd1" value=""> <input type="text" class="departure" placeholder="Month" name="txtm1" value=""> <input type="text" class="departure" placeholder="Year" name="txty1" value=""></td>
+				<input type="text" class="departure" placeholder="Day" name="txtd1" value=""onfocus="play_guide('DDR.mp3')">
+				<input type="text" class="departure" placeholder="Month" name="txtm1" value=""onfocus="play_guide('DMR.mp3')">
+				<input type="text" class="departure" placeholder="Year" name="txty1" value=""onfocus="play_guide('DYR.mp3')"></td>
 			</tr>
 		</table>
 <br>
@@ -120,13 +124,13 @@ a{
 				<td><label>Infant</label></td>
 			</tr>
 			<tr>
-				<td><input type="text" value=""></div></td>
-				<td><input type="text" value=""></div></td>
-				<td><input type="text" value=""></div></td>
+				<td><input type="text" value=""onfocus="play_guide('Adult.mp3')"></div></td>
+				<td><input type="text" value=""onfocus="play_guide('Children.mp3')"></div></td>
+				<td><input type="text" value=""onfocus="play_guide('Infant.mp3')"></div></td>
 			</tr>
 		</table>
 		<br>
-		<center><input type="submit" value="Book now"></center>
+		<center><input type="submit" value="Book now" onfocus="play_guide('booknow.mp3')"></center>
 	</form>
 </div>
 </div>
@@ -144,11 +148,11 @@ a{
 	<span style="font-family: helvetica; font-size: 26px; color: #1B2631">Where would you like to go?</span>
 	<hr>
 		<tr>
-			<td><button class="tab1">Round-trip</button></td>
+			<td><button class="tab1" onfocus="play_guide('RT.mp3')">Round-trip</button></td>
 			<td> </td>
-			<td><button class="tab2">One-way</button></td>
+			<td><button class="tab2"onfocus="play_guide('ow.mp3')">One-way</button></td>
 			<td> </td>
-			<td><button class="tab3">Multi-city</button></td>
+			<td><button class="tab3"onfocus="play_guide('mc.mp3')">Multi-city</button></td>
 		</tr>
 
 	</table>
@@ -176,7 +180,10 @@ a{
 					</select></td>
 					<td><label>Departure:</label></td>
 				<td>
-				<input type="text" class="departure" placeholder="Day" name="txtd" value=""> <input type="text" class="departure" placeholder="Month" name="txtm" value=""> <input type="text" class="departure" placeholder="Year" name="txty" value=""></td>
+				<input type="text" class="departure" placeholder="Day" name="txtd" value=""onfocus="play_guide('ddd.mp3')">
+				<input type="text" class="departure" placeholder="Month" name="txtm" value=""onfocus="play_guide('dmd.mp3')"> 
+				<input type="text" class="departure" placeholder="Year" name="txty" value=""onfocus="play_guide('dyd.mp3')">
+				</td>
 			</tr>
 
 			<tr>
@@ -189,7 +196,9 @@ a{
 					</select></td>
 					<td><label>Return:</label></td>
 				<td>
-				<input type="text" class="departure" placeholder="Day" name="txtd1" value=""> <input type="text" class="departure" placeholder="Month" name="txtm1" value=""> <input type="text" class="departure" placeholder="Year" name="txty1" value=""></td>
+				<input type="text" class="departure" placeholder="Day" name="txtd1" value=""onfocus="play_guide('ddr.mp3')">
+				<input type="text" class="departure" placeholder="Month" name="txtm1" value=""onfocus="play_guide('dmr.mp3')"> 
+				<input type="text" class="departure" placeholder="Year" name="txty1" value=""onfocus="play_guide('dyr.mp3')"></td>
 			</tr>
 		</table>
 <br>
@@ -206,13 +215,13 @@ a{
 				<td><label>Infant</label></td>
 			</tr>
 			<tr>
-				<td><input type="text" value=""></div></td>
-				<td><input type="text" value=""></div></td>
-				<td><input type="text" value=""></div></td>
+				<td><input type="text" value="" onfocus="play_guide('adult.mp3')"></div></td>
+				<td><input type="text" value=""onfocus="play_guide('children.mp3')"></div></td>
+				<td><input type="text" value=""onfocus="play_guide('infant.mp3')"></div></td>
 			</tr>
 		</table>
 		<br>
-		<center><input type="submit" value="Book now"></center>
+		<center><input type="submit" value="Book now" onfocus="play_guide('booknow.mp3')"></center>
 	</form>
 </div>
 </div>
@@ -229,11 +238,11 @@ a{
 	<span style="font-family: helvetica; font-size: 26px; color: #1B2631">Where would you like to go?</span>
 	<hr>
 		<tr>
-			<td><button class="tab1">Round-trip</button></td>
+			<td><button class="tab1" onfocus="play_guide('rt.mp3')">Round-trip</button></td>
 			<td> </td>
-			<td><button class="tab2">One-way</button></td>
+			<td><button class="tab2" onfocus="play_guide('ow.mp3')">One-way</button></td>
 			<td> </td>
-			<td><button class="tab3">Multi-city</button></td>
+			<td><button class="tab3" onfocus="play_guide('mc.mp3')">Multi-city</button></td>
 		</tr>
 
 	</table>
@@ -286,12 +295,16 @@ a{
 			<tr>
 				<td><label>Departure:</label></td>
 				<td>
-				<input type="text" class="departure" placeholder="Day" name="txtd" value=""> <input type="text" class="departure" placeholder="Month" name="txtm" value=""> <input type="text" class="departure" placeholder="Year" name="txty" value=""></td>
+				<input type="text" class="departure" placeholder="Day" name="txtd" value="" onfocus="play_guide('DDD.mp3')"> 
+				<input type="text" class="departure" placeholder="Month" name="txtm" value="" onfocus="play_guide('DMD.mp3')"> 
+				<input type="text" class="departure" placeholder="Year" name="txty" value="" onfocus="play_guide('DYD.mp3')"></td>
 
 
 	<td><label>Return:</label></td>
 				<td>
-				<input type="text" class="departure" placeholder="Day" name="txtd1" value=""> <input type="text" class="departure" placeholder="Month" name="txtm1" value=""> <input type="text" class="departure" placeholder="Year" name="txty1" value=""></td>
+				<input type="text" class="departure" placeholder="Day" name="txtd1" value="" onfocus="play_guide('ddr.mp3')">
+				<input type="text" class="departure" placeholder="Month" name="txtm1" value=""onfocus="play_guide('dmr.mp3')"> 
+				<input type="text" class="departure" placeholder="Year" name="txty1" value=""onfocus="play_guide('dyr.mp3')"></td>
 					
 			</tr>
 		</table>
@@ -309,13 +322,13 @@ a{
 				<td><label>Infant</label></td>
 			</tr>
 			<tr>
-				<td><input type="text" value=""></div></td>
-				<td><input type="text" value=""></div></td>
-				<td><input type="text" value=""></div></td>
+				<td><input type="text" value=""onfocus="play_guide('adult.mp3')"></div></td>
+				<td><input type="text" value=""onfocus="play_guide('children.mp3')"></div></td>
+				<td><input type="text" value=""onfocus="play_guide('infant.mp3')"></div></td>
 			</tr>
 		</table>
 		<br>
-		<center><input type="submit" value="Book now"></center>
+		<center><input type="submit" value="Book now"onfocus="play_guide('booknow.mp3')"></center>
 	</form>
 </div>
 </div>
