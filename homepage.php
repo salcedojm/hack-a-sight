@@ -47,6 +47,7 @@ $(document).ready(function(){
 <body>
 <audio id="welcome_sound" src="audio/welcome.mp3" preload="auto"></audio>
 <audio id="sound_guide" src="audio/sign_in.mp3" preload="auto"></audio>
+<div style="width:100%; background-color:white; margin-top:-8px;">
 <img src="logo.jpg" alt="Cebu pacific logo">
 <div class="snr">
 <p align ="right">
@@ -66,6 +67,7 @@ $(document).ready(function(){
 	}
 ?>
 </font>
+</div>
 </div>
 <hr>
 <br>
@@ -102,12 +104,15 @@ $(document).ready(function(){
 	</tr>
 
 </table>
-
-
-
-
 </center>
-
 <br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<footer>
+<img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard"><img src="mastercard-secure.jpg" alt="credits visa"><img src="amex.jpg" alt="credits amex">
+</footer>
 </body>
 </html>

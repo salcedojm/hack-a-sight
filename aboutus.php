@@ -15,6 +15,7 @@ a{
 </style>
 </head>
 <body>
+<div style="width:100%; background-color:white; margin-top:-8px;">
 <a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
 <div class="snr">
 <p align ="right">
@@ -34,6 +35,7 @@ a{
 	}
 ?>
 </font>
+</div>
 </div>
 <hr>
 
@@ -77,7 +79,7 @@ a{
 	
 }
 </style>
-<div id="desc"><br><b>About Us:</b><br>	
+<div id="desc"><br><b>About Us:</b><br><br>	
 
 Cebu Pacific Air (PSE: CEB) entered the aviation industry on March 1996 and pioneered the “low fare, great value” strategy. We have since then flown over 150 million passengers and counting.
 
@@ -152,7 +154,9 @@ Our guests have also learned to anticipate a uniquely upbeat flying experience w
 	</tr>
 </table>
 </div>
-
-
+<hr>
+<footer>
+<img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard"><img src="mastercard-secure.jpg" alt="credits visa"><img src="amex.jpg" alt="credits amex">
+</footer>
 </body>
 </html>

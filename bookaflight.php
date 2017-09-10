@@ -15,6 +15,7 @@ a{
 </style>
 </head>
 <body>
+<div style="width:99%; background-color:white; margin-top:-8px;">
 <a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
 <div class="snr">
 <p align ="right">
@@ -34,6 +35,7 @@ a{
 	}
 ?>
 </font>
+</div>
 </div>
 <hr>
 
@@ -117,7 +119,7 @@ a{
 				<td><input type="text" value=""></div></td>
 			</tr>
 		</table>
-		<br><br>
+		<br>
 		<center><input type="submit" value="Book now"></center>
 	</form>
 </div>
@@ -129,5 +131,10 @@ a{
 </center>
 
 </div>
+<br>
+<hr>
+<footer>
+<img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard"><img src="mastercard-secure.jpg" alt="credits visa"><img src="amex.jpg" alt="credits amex">
+</footer>
 </body>
 </html>
