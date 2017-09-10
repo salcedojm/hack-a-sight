@@ -91,7 +91,7 @@ $(document).ready(function(){
 		</td>
 		<td>
 			<button class="button_back" onfocus="play_guide('view_flight.mp3')" id="view_flight"  style="background-color: #D4AC0D">
-				<span class="styleText">VIEW FLIGHT</span>
+				<span class="styleText">FLIGHT RECORD</span>
 			</button>
 		</td>
 		<td>
