@@ -42,10 +42,10 @@ a{
 <hr>
 <div id="nav">
 <ul>
-  <li><a class="active" href="#home">Book A Flight</a></li>
-  <li><a href="#news">Flight Status</a></li>
-  <li><a href="#contact">Flight Record</a></li>
-  <li><a href="#contact">About Us</a></li>
+  <li><a class="active" href="bookaflight.php">Book A Flight</a></li>
+  <li><a href="flightstatus.php">Flight Status</a></li>
+  <li><a href="flightrecord.php">Flight Record</a></li>
+  <li><a href="aboutus.php">About Us</a></li>
   </ul>
 </div>
 
