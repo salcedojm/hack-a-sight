@@ -94,12 +94,12 @@ $(document).ready(function(){
 			</button>
 		</td>
 		<td>
-			<button class="button_back" onfocus="play_guide('view_flight.mp3')" id="view_flight"  style="background-color: #D4AC0D">
+			<button class="button_back" onfocus="play_guide('flig_record.mp3')" id="view_flight"  style="background-color: #D4AC0D">
 				<span class="styleText">FLIGHT RECORD</span>
 			</button>
 		</td>
 		<td>
-			<button class="button_back" id="nothing" style="background-color: #2471A3">
+			<button class="button_back"  onfocus="play_guide('about.mp3')" id="nothing" style="background-color: #2471A3">
 				<span class="styleText">ABOUT US</span>
 			</button>
 		</td>

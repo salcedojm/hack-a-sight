@@ -21,7 +21,8 @@
 <html>
 <head>
 <title> Registration </title>
-	
+	<script src="js/jquery-3.2.1.js"></script>
+<script src="js/app.js"></script>
 <style>
 div.snr{
 	font-family:Helvetica;
@@ -129,12 +130,12 @@ a{
 
 </style>
 </head>
-<body>
+<body><audio id="sound_guide" src="audio/sign_in.mp3" preload="auto"></audio>
 <div style="position:fixed;width:98.8%; background-color:white; margin-top:-8px;">
 	<a href="homepage.php"><img src="logo.jpg" alt="Cebu pacific logo"></a>
 <div class="snr">
 <p align ="right">
-<a href="signin.php">Sign in</a> | <a href="register.php">Register</a></font>
+<a href="signin.php" onfocus="play_guide('sign_in.mp3')">Sign in</a> | <a href="register.php" onfocus="play_guide('register.mp3')">Register</a></font>
 </div>
 <hr>
 </div>
@@ -145,10 +146,10 @@ a{
 <br>
 <div id="nav">
 <ul>
-  <li><a class="active" href="#home">Book A Flight</a></li>
-  <li><a href="#news">Flight Status</a></li>
-  <li><a href="#contact">Flight Record</a></li>
-  <li><a href="#contact">About Us</a></li>
+  <li><a class="active" href="bookaflight.php" onfocus="play_guide('book_flight.mp3')">Book A Flight</a></li>
+  <li><a href="flightstatus.php" onfocus="play_guide('flight_status.mp3')">Flight Status</a></li>
+  <li><a href="flightrecord.php" onfocus="play_guide('flig_record.mp3')">Flight Record</a></li>
+  <li><a href="aboutus.php" onfocus="play_guide('about.mp3')">About Us</a></li>
   </ul>
 </div>
 <center>
@@ -163,9 +164,9 @@ a{
 	<center><span style="font-size: 24px; font-family: Helvetica;">Login Information</span></center>
 	<tr>
 		<td><label>Email: </label></td>
-		<td><input type="text" name="txtemail" placeholder="Email Address" class="fontstyle"><br></td>
+		<td><input type="text" onfocus="play_guide('eEmail.mp3')" name="txtemail" placeholder="Email Address" class="fontstyle" required><br></td>
 		<td><label>Password:</label></td>
-		<td><input type="password" name="txtpass" placeholder="Password" class="fontstyle"><br></td>
+		<td><input type="password" name="txtpass" onfocus="play_guide('ePass.mp3')" placeholder="Password" class="fontstyle"  required><br></td>
 	</tr>
 	</table>
 	<br>	
@@ -174,20 +175,19 @@ a{
 	<center><span style="font-size: 24px; font-family: Helvetica;">Personal Information</span></center><br>
 	<tr>
 		<td><label>Name:</label></td>
-		<td><input type="text" name="txtlname" placeholder="Family Name" size="14" class="fontstyle"> <input size ="11" type="text" name="txtfname" placeholder="Given Name" class="fontstyle"></td>
+		<td><input type="text" name="txtlname" onfocus="play_guide('eFamily.mp3')" placeholder="Family Name" size="14" class="fontstyle" required> <input size ="11" type="text" name="txtfname" onfocus="play_guide('eGiven.mp3')" placeholder="Given Name" class="fontstyle" required></td>
 	</tr>
 	<tr>
 		<td><label>Date of Birth:</label> </td>
-		<table></table><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="2" style="width: 130px;"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="4" style="width: 130px;"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10" style="width: 130px;"></td>
+		<table></table><input type="text" name="txtday" onfocus="play_guide('eDay.mp3')" placeholder="Day" class="fontstyle" size="2" style="width: 130px;" required> <input type="text" name="txtmonth" placeholder="Month" onfocus="play_guide('eMonth.mp3')" class="fontstyle" size="4" style="width: 130px;" required> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" onfocus="play_guide('eYear.mp3')" size="10" style="width: 130px;" required></td>
 	</tr>
 	<tr>
 		<td><label>Contact Number: </label></td>
-		<td><input type="text" name="txtnum" placeholder="Mobile Number" class="fontstyle"size="34"></td>
+		<td><input type="text" onfocus="play_guide('mobile_number.mp3')" name="txtnum" placeholder="Mobile Number" class="fontstyle" size="34" required></td>
 		</tr>
  </table>
- <br>
-<center><input type="checkbox" name="cbx" style="height: 20px; width: 20px;"> <span style="font-size: 20px;">I agree to the </span><a href="" style="color:black; text-decoration:underline; font-size: 20px;">Terms &amp; Conditions</a> </center><br>
-<center><input type="submit" name="btnproceed"></center><br>
+ <br><br>
+<center><input type="submit" name="btnproceed" onfocus="play_guide('submit.mp3')"></center><br>
 	</form>
 </center>
 </div>
