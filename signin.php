@@ -63,9 +63,9 @@ input[type=password] {
 }
 input[type=submit]{
 	border-radius: 8px;
-	background-color: #D4AC0D;
-	height: 8%;
-	width: 12%;
+	background-color: #4D5656;
+	height: 6%;
+	width: 16%;
 	color: white;
 	font-size: 20px;
 }
@@ -78,6 +78,8 @@ label{
 	width: 50%;
     background-color: #F1C40F;
 	margin-top: 50px;
+	border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 
 }
 ul {
@@ -135,10 +137,7 @@ a{
 </div>
 <hr>
 </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> f4f29b28b9aadff35c571a8de73692996028d69d
 <div id="nav">
 <ul>
   <li><a class="active" href="#home">Book A Flight</a></li>
@@ -147,10 +146,7 @@ a{
   <li><a href="#contact">About Us</a></li>
   </ul>
 </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> f4f29b28b9aadff35c571a8de73692996028d69d
 <center>
 <div id="form_style">
 <br>
@@ -177,16 +173,10 @@ a{
 </center>
 </div>
 </div>
-
-
-
 </div>
-<br>
-<br>
-<br>
+<footer style="margin-top: 60px;">
 <hr>
-<footer>
-<img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard"><img src="mastercard-secure.jpg" alt="credits visa"><img src="amex.jpg" alt="credits amex">
+<img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;">
 </footer>
 </body>
 </html>
