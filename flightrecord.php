@@ -84,6 +84,7 @@ table {
 th, td {
     text-align: left;
     padding: 8px;
+    font-family: Helvetica;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
@@ -91,6 +92,8 @@ tr:nth-child(even){background-color: #f2f2f2}
 th {
     background-color: #F1C40F;
     color: white;
+    font-size: 18px;
+    font-family: Helvetica;
 }
 
 </style>
@@ -138,9 +141,11 @@ $(document).ready(function(){
   <li><a href="#contact">About Us</a></li>
   </ul>
 </div>
+<br>
 
 <center>
-Flight Record History
+<span style="font-size: 26px; font-weight: bold; font-family: Helvetica;">Flight Record History</span>
+
 <table border="1">
 <tr align="center">
 	<th>FROM</th>

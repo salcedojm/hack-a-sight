@@ -177,7 +177,7 @@ a{
 </div>
 </div>
 </div>
-<footer style="margin-top: 60px;">
+<footer style="margin-top: 100px;">
 <hr>
 <img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;">
 </footer>
