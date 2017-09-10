@@ -50,7 +50,7 @@ input[type=text] {
     border: 1px solid;
     border-radius: 4px;
     box-sizing: border-box;
-    width: 350px;
+    width: 330px;
 }
 input[type=password] {
     padding: 10px 20px;
@@ -59,15 +59,15 @@ input[type=password] {
     border: 1px solid;
     border-radius: 4px;
     box-sizing: border-box;
-    width: 350px;
+    width: 330px;
 }
 input[type=submit]{
 	border-radius: 8px;
-	background-color: #D4AC0D;
-	height: 8%;
-	width: 12%;
-	color: white;
-	font-size: 20px;
+    background-color: #4D5656  ;
+    height: 8%;
+    width: 14%;
+    color: white;
+    font-size: 20px;
 }
 label{
 	font-size: 18px;
@@ -79,6 +79,8 @@ label{
 	background-color: #D0D3D4;
 	margin-top: 50px;
 	background-color: #F1C40F;
+	 border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 ul {
     
@@ -122,6 +124,8 @@ a{
     text-decoration: none;
     font-weight: bolder;
 }
+
+
 </style>
 </head>
 <body>
@@ -155,7 +159,7 @@ a{
 	<hr>
 
 	<table>
-	<center><span style="font-size: 26px; font-family: Helvetica;">Login Information</span></center>
+	<center><span style="font-size: 24px; font-family: Helvetica;">Login Information</span></center>
 	<tr>
 		<td><label>Email: </label></td>
 		<td><input type="text" name="txtemail" placeholder="Email Address" class="fontstyle"><br></td>
@@ -164,15 +168,16 @@ a{
 	</tr>
 	</table>
 	<br>	
+	<br>
 	<table>
-	<center><span style="font-size: 28px; font-family: Helvetica;">Personal Information</span></center><br>
+	<center><span style="font-size: 24px; font-family: Helvetica;">Personal Information</span></center><br>
 	<tr>
 		<td><label>Name:</label></td>
 		<td><input type="text" name="txtlname" placeholder="Family Name" size="14" class="fontstyle"> <input size ="11" type="text" name="txtfname" placeholder="Given Name" class="fontstyle"></td>
 	</tr>
 	<tr>
 		<td><label>Date of Birth:</label> </td>
-		<table></table>d><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="2" style="width: 130px;"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="4" style="width: 130px;"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10" style="width: 130px;"></td>
+		<table></table><input type="text" name="txtday" placeholder="Day" class="fontstyle" size="2" style="width: 130px;"> <input type="text" name="txtmonth" placeholder="Month" class="fontstyle" size="4" style="width: 130px;"> <input type="text" name="txtyear" placeholder="Year" class="fontstyle" size="10" style="width: 130px;"></td>
 	</tr>
 	<tr>
 		<td><label>Contact Number: </label></td>

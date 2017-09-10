@@ -102,7 +102,7 @@ a{
 </form>
 </center>
 <br>
-<center><input type="submit" name="btnsearch" value="Check Status"></center>
+<center><input type="submit" name="btnsearch" id="" value="Check Status"></center>
 </font>
 </div>
 

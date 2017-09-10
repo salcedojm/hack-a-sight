@@ -72,7 +72,7 @@ $(document).ready(function(){
 <hr>
 <br>
 <center>
-<font style="font-size:60px;">Welcome, What would you like to do?</font>
+<font style="font-size:50px; font-weight: bold;">Welcome, What would you like to do?</font>
 <br>
 <br>
 <br>
@@ -110,9 +110,10 @@ $(document).ready(function(){
 <br>
 <br>
 <br>
+
+<footer style="margin-top: 70px;">
 <hr>
-<footer>
-<img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard"><img src="mastercard-secure.jpg" alt="credits visa"><img src="amex.jpg" alt="credits amex">
+<img src="logofoot.jpg" alt="credits cebu pacific" height="50" style="margin-right:340px;">© Copyright 2016 cebupacificair.com <img src="visa.jpg" alt="credits visa" style="margin-left:320px;"><img src="mastercard.jpg" alt="credits mastercard">
 </footer>
 </body>
 </html>
