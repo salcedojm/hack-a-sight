@@ -76,7 +76,7 @@ label{
 
 #form_style{
 	width: 50%;
-	background-color: #D0D3D4;
+    background-color: #F1C40F;
 	margin-top: 50px;
 
 }
