@@ -95,7 +95,7 @@ a{
 				</td>
 
 				<td><td<center>Flight Date</center></td</td>
-				<td><input type="text" class="departure" name="txtdd" placeholder="Day"> <input type="text" class="departure" name="txtmm" placeholder="Month"> <input type="text" class="departure" name="txtyy" placeholder="Year"></td>
+				<td><input type="text" class="departure" name="txtdd" placeholder="Day" onfocus="play_guide('dd.mp3')"> <input type="text" class="departure" name="txtmm" placeholder="Month" onfocus="play_guide('dm.mp3')"> <input type="text" class="departure" name="txtyy" placeholder="Year" onfocus="play_guide('dy.mp3')"></td>
 			</tr>
 		
 			<tr>
@@ -109,7 +109,7 @@ a{
 				</td>
 
 				<td><center>Flight found</center></td>
-				<td><input type="text" name="flight_no" placeholder="Flight No."></td>
+				<td><input type="text" name="flight_no" placeholder="Flight No."disabled></td>
 				
 			</tr>
 		</table>
@@ -120,7 +120,7 @@ a{
 </form>
 </center>
 <br>
-<center><input type="submit" name="btnsearch" id="" value="Check Status"></center>
+<center><input type="submit" name="btnsearch" id="" value="Check Status" onfocus="play_guide('cs.mp3')"></center>
 </font>
 </div>
 
