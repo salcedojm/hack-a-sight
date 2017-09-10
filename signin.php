@@ -135,12 +135,6 @@ a{
 </div>
 <hr>
 </div>
-<br>
-<br>
-<<<<<<< HEAD
-=======
-<br>
-<br>
 <div id="nav">
 <ul>
   <li><a class="active" href="#home">Book A Flight</a></li>
@@ -149,7 +143,6 @@ a{
   <li><a href="#contact">About Us</a></li>
   </ul>
 </div>
->>>>>>> 4bb139bf58bf0d66be3ac99971907cb7c4e0b5d3
 <center>
 <div id="form_style">
 <br>
