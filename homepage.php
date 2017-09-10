@@ -12,8 +12,10 @@ div.header1{
 	font-size:60px;
 }
 a{
-	text-decoration:none;
-	color:blue;
+	text-decoration: none;
+    color: #48D0EC;
+    text-decoration: none;
+    font-weight: bolder;
 }
 #p{
 	background-color: blue;
