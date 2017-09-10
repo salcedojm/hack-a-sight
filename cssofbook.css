@@ -117,11 +117,14 @@ input[type=submit]{
     color: white;
     font-size: 20px;
 }
-.tab1{
+.tab1, .tab2, .tab3{
     background-color: #4D5656;
     color: white;
     font-family: Helvetica;
     font-size: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
 }
 
 

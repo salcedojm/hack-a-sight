@@ -135,6 +135,10 @@ a{
 </div>
 <hr>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> f4f29b28b9aadff35c571a8de73692996028d69d
 <div id="nav">
 <ul>
   <li><a class="active" href="#home">Book A Flight</a></li>
@@ -143,6 +147,10 @@ a{
   <li><a href="#contact">About Us</a></li>
   </ul>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> f4f29b28b9aadff35c571a8de73692996028d69d
 <center>
 <div id="form_style">
 <br>
